@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secret Santa</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+</head>
+<body class="setup">
+<h3 align="center">Fill in the information:</h3>
+<form method="POST" class="continueform" align="center">
+    <h5 class="messagetwo">{{ message }}</h5>
+    <br><br>
+    <input type="text" name="location" placeholder="Location" class="names">   <input placeholder="Date" class="names" type="text" onfocus="(this.type = 'date')"  id="date" name="date">
+    <br><br>
+    <input type="number" name="minprice" placeholder="Minimum Price" class="names">   <input type="number" name="maxprice" placeholder="Maximum Price" class="names">
+    <br><br>
+    <br><br><br>
+    {% for i in range(number) %}
+    <input type="text" name="names" placeholder="Name" class="names">   <input type="email" name="emails" placeholder="Email" class="names">
+    <br><br>
+    {% endfor %}
+    <button type="submit" class="continuebutton">Finish</button>
+    <a href="/" class="link">Back</a>
+</form>
+</body>
+</html>

@@ -1,0 +1,165 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+h1{
+    font-size: 40px;
+    position: relative;
+    top: 250px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h2{
+    position: relative;
+    top: 290px;
+    font-size: 30px;
+    font-family: 'Srisakdi', cursive;
+}
+
+h3{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+    font-family: 'Allura', cursive;
+}
+
+h6{
+    color: transparent;
+}
+
+.names{
+    height: 20px;
+    width: 450px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    font-family: "Times New Roman";
+}
+
+::placeholder{
+    color: black;
+    font-family: "Times New Roman";
+}
+
+
+.continueform{
+    position: relative;
+    top: 150px;
+    left: 2%;
+    padding-bottom: 80px;
+}
+
+.continuebutton{
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+    position: relative;
+    top: 15px;
+    left: -50px;
+    font-family: Didot;
+    background-color: #ffffff;
+    border-color: transparent;
+}
+
+.link{
+    color: white;
+    position: relative;
+    top: 15px;
+}
+
+.link :visited{
+    color: white;
+}
+
+.form{
+    position: relative;
+    top: 310px;
+}
+.startinput{
+    height: 30px;
+    width: 340px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Times New Roman";
+}
+
+.startbutton{
+    height: 30px;
+}
+
+.messageone{
+    color: darkred;
+    position: relative;
+    top: 340px;
+    left: -5px;
+    font-family: 'Noto Serif', serif;
+}
+
+.messagetwo{
+    color: black;
+    position: relative;
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+    top: -30px;
+}
+
+.start{
+    background: url("start.jpg");
+    position: relative;
+    background-size: 1440px 900px;
+    background-repeat: no-repeat;
+}
+
+.setup{
+    background-image: linear-gradient(to bottom right, #ff988c, #9E97FF);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.final{
+    font-size: 130px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    position: relative;
+    top: 370px;
+    left: 35%;
+}
+
+.return{
+    position: relative;
+    top: 370px;
+    left: 36%;
+    color: blue;
+    font-size: 25px;
+}
+
+.over{
+    background: url("finish.jpg");
+    position: relative;
+    background-size: 1440px 900px;
+    background-repeat: no-repeat;
+}
+
+

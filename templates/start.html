@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secret Santa</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Srisakdi" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+</head>
+<body class="start">
+<h1 align = "center">Welcome to the Secret Santa!</h1>
+<h2 align = "center">How many people are playing?</h2>
+<form method = "POST" align="center" class="form">
+    <input type="number" name="playernumber" placeholder="Type in an integer" class="startinput">
+    <button type="submit" name="submitplayernumber" class="startbutton">Submit</button>
+</form>
+<h4 class="messageone" align="center">Please type in a number between 2-50!</h4>
+</body>
+</html>
